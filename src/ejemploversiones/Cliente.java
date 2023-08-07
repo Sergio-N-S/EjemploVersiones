@@ -4,12 +4,18 @@ package ejemploversiones;
 public class Cliente {
 
     private String nombre;
-    private String dni;
+   
+    private String empleo;
 
-    public Cliente(String nombre, String dni) {
-        this.nombre = nombre;
-        this.dni = dni;
+    public String getEmpleo() {
+        return empleo;
     }
+
+    public void setEmpleo(String empleo) {
+        this.empleo = empleo;
+    }
+
+    
 
     public String getNombre() {
         return nombre;
@@ -19,13 +25,10 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public String getDni() {
-        return dni;
-    }
+    
 
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
+   
+    
     
     
 }
